@@ -54,6 +54,16 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 
 ####changePassword
 
+##Utilizaion
+
+###Calling with angular 1.x
+
+###Calling with angular 2
+
+###Calling with React Flux/Redux
+
+###Calling with jQuery
+
 ##Tasks
 
 - [x] Update the htaccess file.
