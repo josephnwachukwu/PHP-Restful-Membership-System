@@ -54,6 +54,11 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 
 ####changePassword
 
+##Tasks
+
+- [x] Update the htaccess file.
+- [ ] Document all functions
+- [ ] Convert all mysql calls from mysql/mysqli to PDO
 
 ## Author
 
