@@ -1,4 +1,4 @@
-# ![logo](https://raw.githubusercontent.com/josephnwachukwu/PHP-Restful-Membership-System/master/porcupine.png) Restful Membership- ystem
+# ![logo](https://raw.githubusercontent.com/josephnwachukwu/PHP-Restful-Membership-System/master/porcupine.png) Restful Membership System
 
 A Restful Services System for membership using PHP and MySQL.
 
