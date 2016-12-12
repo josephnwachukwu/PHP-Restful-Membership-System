@@ -1,6 +1,6 @@
 # PHP-Restful-Membership-System
 
-A Restful Services System for membership using PHP and MySQL
+A Restful Services System for membership using PHP and MySQL. it utilizes Rest.inc.php written by Arun Kumar Sekar
 
 ##Prerequisites 
 
