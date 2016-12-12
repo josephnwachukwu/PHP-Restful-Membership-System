@@ -66,7 +66,7 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 * finds the users profile by id and updates the information with the post data.
 
 
-##Utilizaion
+##Utilization
 
 ###Calling with angular 1.x
 ```javascript
