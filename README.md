@@ -97,7 +97,7 @@ var payload = {
 ##Tasks
 
 - [x] Update the htaccess file.
-- [ ] Document all functions
+- [X] Document all functions
 - [ ] Convert all mysql calls from mysql/mysqli to PDO
 
 ## Author
