@@ -88,7 +88,17 @@ var payload = {
 ###Calling with React Flux/Redux
 
 ###Calling with jQuery
-
+```
+var payload = {
+  "username": "joseph",
+  "password": "lamborghini"
+  }
+  
+  $post('http://yoursite.com/services/login', payload);
+  .done(function( data ) {
+    var content = $JSON.parse( data )
+  })
+```
 ##Tasks
 
 - [x] Update the htaccess file.
