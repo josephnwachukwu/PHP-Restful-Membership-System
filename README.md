@@ -27,22 +27,23 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 
 > php mail settings vary from server to server please check with your hosting company to see if using mail() is permitted or if you need to have any additional settings. 
 
-##api.php
 
-###Functions
+###Api Calls
 
 ####login
-* searches for the username
-* md5s the posted password and compares it to the one in the database
-* when found creates the session and sends back the user data
+* searches the database to for the username and md5'd password
+* if it finds the username in the database it will return the row with all the users data or it will return json saying user not found
+* next it will check to see what level access you have, whether you are an admin a regular user or you are suspended
+* next of your privileges are good then a session will be created and it will send back the proper json data
 
 ####logout
-* kills the php session and sends the appropriate logout message
+* kills the php session with session destroy and sends the appropriate logout message
 
 ####register
-* inserts the data into the database
-* sends an email to the new user to confirm
-* sends an email to the owner alerting him of a new member
+* checks the database to see if the username and email is already taken
+* if email and usernames are unique it inserts data into database with a randomly generated 32 character string that will be used to confirm
+* if query is successful then the data is reselected from the database if the data comes back properly an email is sent to the new member asking to confirm their membership
+* if the email goes through then the message is sent back to the json saying that the account has been created.
 
 
 ####forgotPassword
