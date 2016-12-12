@@ -2,6 +2,9 @@
 
 A Restful Services System for membership using PHP and MySQL
 
+##Prerequisites 
+
+You will need a webserver running PHP4+ and MySQL.
 
 ##Installation
 
