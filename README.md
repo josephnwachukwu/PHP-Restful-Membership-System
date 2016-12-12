@@ -47,13 +47,24 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 
 
 ####forgotPassword
+* checks the email against the database to see if it exists 
+* if the entry is found a temporary password is generated and is updated against the users information in the database
+* an email is sent to the user with the link to reset the password
 
 ####confirmMembership
+* checks the database agaist the user id from the query params
+* if it exists in the database check the active flag
+* if already active it will display a message saying the user is already active
+* if not active it will activate the user by changing the active flag.
+
+####confirmPassword
+* checks database against the id given
+* if the data is found it then updates the password with the new password from input.
+* if the query is successful it sends the appropriate json message.
 
 ####updateProfile
 * finds the users profile by id and updates the information with the post data.
 
-####changePassword
 
 ##Utilizaion
 
