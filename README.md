@@ -1,6 +1,6 @@
-# ![logo](https://raw.githubusercontent.com/josephnwachukwu/PHP-Restful-Membership-System/master/porcupine.png) PHP-Restful-Membership-System
+# ![logo](https://raw.githubusercontent.com/josephnwachukwu/PHP-Restful-Membership-System/master/porcupine.png) Restful Membership- ystem
 
-A Restful Services System for membership using PHP and MySQL. it utilizes Rest.inc.php written by Arun Kumar Sekar
+A Restful Services System for membership using PHP and MySQL.
 
 ##Prerequisites 
 
