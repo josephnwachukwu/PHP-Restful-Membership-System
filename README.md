@@ -35,6 +35,7 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 * when found creates the session and sends back the user data
 
 ####logout
+* kills the php session and sends the appropriate logout message
 
 ####register
 * inserts the data into the database
@@ -47,6 +48,7 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 ####confirmMembership
 
 ####updateProfile
+* finds the users profile by id and updates the information with the post data.
 
 ####changePassword
 
