@@ -69,6 +69,19 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 ##Utilizaion
 
 ###Calling with angular 1.x
+```javascript
+var payload = {
+  "username": "joseph",
+  "password": "lamborghini"
+  }
+ $http.post('http://yoursite.com/services/login', payload)
+  .success(function(data){
+    $scope.data = data
+  })
+  .error(function(data){
+  
+  })
+```
 
 ###Calling with angular 2
 
