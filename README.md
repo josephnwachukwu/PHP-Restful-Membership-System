@@ -25,6 +25,8 @@ Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Rest
 
 6. Next you will have to open the api.php file and make sure all the session settings are correct. you will also need to make sure that the php.mail() settings are correct.
 
+> php mail settings vary from server to server please check with your hosting company to see if using mail() is permitted or if you need to have any additional settings. 
+
 ##api.php
 
 ###Functions
