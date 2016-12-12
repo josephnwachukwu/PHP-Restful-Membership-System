@@ -5,6 +5,7 @@ A Restful Services System for membership using PHP and MySQL
 ##Prerequisites 
 
 You will need a webserver running PHP4+ and MySQL.
+I suggest that you use PhpMyAdmin to administer the database.
 
 ##Getting started
 
@@ -29,13 +30,25 @@ Next you will have to open the api.php file and make sure all the session settin
 ###Functions
 
 ####login
+searches for the username
+md5s the posted password and compares it to the one in the database
+when found creates the session and sends back the user data
 
 ####logout
 
 ####register
+inserts the data into the database
+sends an email to the new user to confirm
+sends an email to the owner alerting him of a new member
+
 
 ####forgotPassword
 
+####confirmMembership
+
+####updateProfile
+
+####changePassword
 
 
 ## Author
