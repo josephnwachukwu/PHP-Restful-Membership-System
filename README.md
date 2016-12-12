@@ -26,6 +26,17 @@ Next you will have to open the api.php file and make sure all the session settin
 
 ##api.php
 
+###Functions
+
+####login
+
+####logout
+
+####register
+
+####forgotPassword
+
+
 
 ## Author
 
