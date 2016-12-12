@@ -13,4 +13,17 @@ Next install api.php, Rest.inc.php, db.php, setup.php, and functions.php files i
 
 Next run setup.php by navigating to it in the browser
 
+Next open any rest client such as Advanced Rest Client and call the test function or call the test function in the browser
+
+Next you
+
 ##api.php
+
+
+## Author
+
+* **Joseph Nwachukwu** - *Initial work* - [Joseph's Github](https://github.com/josephnwachukwu)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
