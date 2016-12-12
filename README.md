@@ -15,7 +15,7 @@ Next run setup.php by navigating to it in the browser
 
 Next open any rest client such as Advanced Rest Client and call the test function or call the test function in the browser
 
-Next you
+Next you will have to open the api.php file and make sure all the session settings are correct. you will also need to make sure that the php.mail() settings are correct.
 
 ##api.php
 
