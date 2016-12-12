@@ -6,6 +6,10 @@ A Restful Services System for membership using PHP and MySQL
 
 You will need a webserver running PHP4+ and MySQL.
 
+##Getting started
+
+Download the latest code from [here](https://github.com/josephnwachukwu/PHP-Restful-Membership-System)
+
 ##Installation
 
 First install the .htacces file in the root directory of your site or append the contents of the file to your current .htacess file.
