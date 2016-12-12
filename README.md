@@ -82,11 +82,6 @@ var payload = {
   
   })
 ```
-
-###Calling with angular 2
-
-###Calling with React Flux/Redux
-
 ###Calling with jQuery
 ```
 var payload = {
